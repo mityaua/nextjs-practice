@@ -12,6 +12,7 @@ export default function About() {
     Router.push("/");
   };
 
+  // Разметка не типизируется
   return (
     <Layout title={"About page"}>
       <h1>About page</h1>

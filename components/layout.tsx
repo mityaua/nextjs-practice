@@ -1,7 +1,13 @@
 import Head from "next/head"; // импорт компонента для хеда
 import Link from "next/link"; // импорт компонента для внутренних ссылок
 
-export default function Layout({ children, title = "Next App" }) {
+// Типизация пропсов для Layout
+interface IProps {
+  children: React.ReactElement[] | React.ReactElement;
+  title?: string;
+}
+
+export default function Layout({ children, title = "Next App" }: IProps) {
   return (
     <>
       <Head>
