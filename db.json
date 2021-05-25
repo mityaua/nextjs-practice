@@ -1,0 +1,19 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post example 1",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eius adipisci doloremque cumque magnam nam! Error quam quas et commodi doloribus laborum at, cupiditate perspiciatis repellat facilis, deleniti deserunt dolorum?"
+    },
+    {
+      "id": 2,
+      "title": "Post example 2",
+      "body": "In the Pages documentation, we’ve explained that Next.js has two forms of pre-rendering: Static Generation and Server-side Rendering. In this page, we’ll talk in depth about data fetching strategies for each case."
+    },
+    {
+      "id": 3,
+      "title": "Post example 3",
+      "body": "If you export an async function called getStaticProps from a page, Next.js will pre-render this page at build time using the props returned by getStaticProps."
+    }
+  ]
+}
